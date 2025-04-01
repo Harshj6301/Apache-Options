@@ -1,2 +1,2 @@
 # Apache-Trader
-Rule based decision making with precision and agility, trading
+Rule based decision making with precision and agility, in trading
