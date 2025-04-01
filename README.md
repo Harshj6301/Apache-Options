@@ -1,0 +1,2 @@
+# Apache-Trader
+Rule based decision making with precision and agility, trading
