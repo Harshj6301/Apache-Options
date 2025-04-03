@@ -16,7 +16,9 @@ try:
 except ImportError:
     st.error("SmartApi library not found. Please install it: pip install smartapi-python")
     smartapi_available = False
-    SmartConnect = None '''
+    SmartConnect = None '''    
+
+smartapi_available = True
 
 # --- Basic Logging ---
 logging.basicConfig(level=logging.INFO)
