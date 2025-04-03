@@ -180,7 +180,7 @@ def fetch_oi_buildup_cached(_smartapi_obj: SmartConnect, oi_expiry_type: str, oi
 
 
 # --- Streamlit App ---
-st.title("🚀 Angel One SmartAPI Interface")
+st.title(" Apache Options - v1")
 
 # --- Initialize Session State ---
 # ... (session state initialization remains the same) ...
