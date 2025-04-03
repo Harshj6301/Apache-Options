@@ -5,3 +5,4 @@ datetime
 pandas
 logging
 requests
+websocket-client
