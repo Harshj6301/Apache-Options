@@ -3,8 +3,10 @@ import pandas as pd
 from datetime import datetime, date, time, timedelta
 import logging
 import requests # For instrument list
+from SmartApi import SmartConnect
 
 # --- SmartAPI Import ---
+'''
 try:
     from SmartApi import SmartConnect
     # from smartapi.smartExceptions import SmartApiException # Optional for specific exception handling
@@ -12,7 +14,7 @@ try:
 except ImportError:
     st.error("SmartApi library not found. Please install it: pip install smartapi-python")
     smartapi_available = False
-    SmartConnect = None
+    SmartConnect = None '''
 
 # --- Basic Logging ---
 logging.basicConfig(level=logging.INFO)
