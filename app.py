@@ -5,6 +5,8 @@ import logging
 import requests # For instrument list
 from SmartApi import SmartConnect
 
+st.set_page_config(layout="wide", page_title="Angel One SmartAPI Tool")
+
 # --- SmartAPI Import ---
 '''
 try:
@@ -97,7 +99,6 @@ def get_instrument_token(symbol: str, exchange: str) -> str | None:
 
 # --- Streamlit App ---
 
-st.set_page_config(layout="wide", page_title="Angel One SmartAPI Tool")
 st.title("🚀 Angel One SmartAPI Interface")
 
 # --- Initialize Session State ---
