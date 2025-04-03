@@ -1,3 +1,5 @@
+smartapi-python
+logzero
 streamlit
 datetime
 pandas
