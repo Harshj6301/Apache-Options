@@ -9,12 +9,14 @@ import asyncio # Needed for async telegram call
 
 # --- Telegram Import ---
 # ... (telegram import check remains the same) ...
-try:
-    import telegram
-    telegram_available = True
-except ImportError:
-    st.warning("`python-telegram-bot` library not found. Telegram alerts disabled. Install with `pip install python-telegram-bot`")
-    telegram_available = False
+#try:
+#    import telegram
+#    telegram_available = True
+#except ImportError:
+#    st.warning("`python-telegram-bot` library not found. Telegram alerts disabled. Install with `pip install python-telegram-bot`")
+#    telegram_available = False
+
+smartapi_available = True
 
 # --- Basic Logging ---
 logging.basicConfig(level=logging.INFO)
